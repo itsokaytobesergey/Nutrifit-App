@@ -1,0 +1,227 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Outfit", "Arial", sans-serif;
+  font-size: 18px;
+  background-image: url(../img/main_pic_girl.png);
+  background-repeat: no-repeat;
+  background-position: right 0;
+  background-size: 45%;
+}
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* padding: 0 15px; */
+  /* outline: 1px solid red; */
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.dl_app_btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 112px;
+  color: #0b0736;
+  font-weight: 500;
+  border: 1px solid #070426;
+  border-radius: 20px;
+  padding: 24px 30px;
+  line-height: 21.5px;
+}
+
+.dl_app_btn:hover {
+  color: #fff;
+  background-color: #1200ff;
+}
+
+.dl_app_bt_pic {
+  display: block;
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.header_content_right {
+  display: flex;
+  margin-left: auto;
+  margin-right: 200px;
+  /* justify-content: space-around; */
+}
+
+.about_content,
+.join_content,
+.form_content {
+  color: #130f49;
+  font-weight: 600;
+  tab-size: 20px;
+  line-height: 25px;
+}
+
+.about_content:hover,
+.join_content:hover,
+.form_content:hover {
+  color: #1200ff;
+  border-bottom: 2px solid #1200ff;
+  /* margin-top: 2px; */
+}
+
+.about_content {
+  margin-right: 57px;
+}
+
+.join_content {
+  margin-right: 52px;
+}
+
+/*.form_content::after {
+  background-image: url(img/main_pic_girl.png);
+  position: absolute;
+  right: 500px;
+} */
+
+main .container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.big_main_text {
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 96px;
+  color: #130f49;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.small_container {
+  display: flex;
+  align-items: center;
+  /* outline: 3px solid #ffd32c; */
+}
+
+.small_main_text {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #130f49;
+  margin-top: 30px;
+}
+
+.yellow_underline {
+  border-bottom: 2.5px solid #ffd32c;
+}
+
+.banana_img {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.startnow_btn {
+  background-color: #130f49;
+  color: white;
+  border-radius: 20px;
+  padding: 30px 50px;
+  margin-right: auto;
+}
+
+.startnow_btn:hover {
+  background-color: #1200ff;
+}
+
+.targets {
+  /* outline: 1px solid #ffd32c; */
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+}
+
+.targets_img {
+  width: 500px;
+  height: 500px;
+}
+
+.targets_list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  justify-content: space-between;
+}
+
+.big_text {
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 62px;
+  color: #130f49;
+  margin: 0;
+}
+
+h3 + p.small_main_text {
+  color: #9b9aa7;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.appstore_btn {
+  background-color: #cce8fd;
+  color: #130f49;
+  border-radius: 20px;
+  padding: 20px 35px;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.appstore_btn:hover {
+  background-color: #1200ff;
+  color: #fff;
+}
+
+.app_store_btn-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.apple_logo {
+  width: 22px;
+  height: 26px;
+  margin-right: 16px;
+}
+
+.appstore_beforetext {
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.appstore_text {
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 1;
+}
+
+/* .appstore_beforetext:hover,
+.appstore_text:hover {
+} */
