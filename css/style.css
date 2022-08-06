@@ -319,5 +319,49 @@ h3 + p.small_main_text {
   height: 60px;
 }
 
+.container_slider {
+  margin-top: 206px;
+  display: flex;
+}
+
 .slider {
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  width: 954px;
+  height: 64px;
+  overflow: hidden;
+  order: 2;
+}
+
+.slider_line {
+  width: 2302px;
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  /* background: orange; */
+  position: relative;
+  left: -665px;
+  transition: all ease 1s;
+}
+
+.slider-prev {
+  order: 1;
+  background-image: url(../img/prev_btn.svg);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border: none;
+  height: 64px;
+  width: 16px;
+  margin-top: 20px;
+}
+
+.slider-next {
+  order: 3;
+  background-image: url(../img/next_btn.svg);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border: none;
+  height: 64px;
+  width: 16px;
+  margin-top: 20px;
 }
