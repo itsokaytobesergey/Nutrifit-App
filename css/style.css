@@ -22,6 +22,10 @@ a {
   display: none;
 }
 
+:focus {
+  outline: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -48,7 +52,8 @@ header .container {
   line-height: 21.5px;
 }
 
-.dl_app_btn:hover {
+.dl_app_btn:hover,
+.dl_app_btn:focus {
   color: #fff;
   background-color: #1200ff;
 }
@@ -79,7 +84,10 @@ header .container {
 
 .about_content:hover,
 .join_content:hover,
-.form_content:hover {
+.form_content:hover,
+.about_content:focus,
+.join_content:focus,
+.form_content:focus {
   color: #1200ff;
   border-bottom: 2px solid #1200ff;
   /* margin-top: 2px; */
@@ -144,7 +152,8 @@ header .container {
   margin-right: auto;
 }
 
-.startnow_btn:hover {
+.startnow_btn:hover,
+.startnow_btn:focus {
   background-color: #1200ff;
 }
 
@@ -195,7 +204,8 @@ h3 + p.small_main_text {
   align-items: center;
 }
 
-.appstore_btn:hover {
+.appstore_btn:hover,
+.appstore_btn:focus {
   background-color: #1200ff;
   color: #fff;
 }
@@ -344,7 +354,8 @@ h3 + p.small_main_text {
   transition: all ease 1s;
 }
 
-.slider_item_color:hover {
+.slider_item_color:hover,
+.slider_item_color:focus {
   color: #1200ff;
   fill: #1200ff;
   stroke: #1200ff;
@@ -371,7 +382,7 @@ h3 + p.small_main_text {
 }
 
 .slider_prev_color:hover,
-.slider_next_color:hover {
+.slider_next_color:focus {
   stroke: #1200ff;
   cursor: pointer;
 }
@@ -419,6 +430,7 @@ h3 + p.small_main_text {
   margin: 0 auto;
   background-image: url(../img/bg3.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container_form {
@@ -483,6 +495,7 @@ h3 + p.small_main_text {
   margin-left: 48px;
 }
 
-.send_button:hover {
+.send_button:hover,
+.send_button:focus {
   background: #1200ff;
 }
