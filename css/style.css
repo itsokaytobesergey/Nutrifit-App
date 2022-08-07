@@ -427,7 +427,7 @@ h3 + p.small_main_text {
   justify-content: space-between;
 }
 
-.column_enter {
+#user {
   display: flex;
   flex-direction: column;
 }
@@ -450,6 +450,39 @@ h3 + p.small_main_text {
   margin-bottom: 38px;
 }
 
-.column_enter:nth-child(6) {
+::placeholder {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #130f49;
+  opacity: 0.9;
+  padding-left: 40px;
+  padding-top: 21px;
+}
+
+#yourquestion {
   min-height: 187px;
+}
+
+.send_button {
+  align-self: center;
+  background: #130f49;
+  border-radius: 20px;
+  color: #fff;
+  padding: 30px 70px;
+  margin-left: 169px;
+}
+
+.love_letter {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  margin-right: auto;
+  margin-left: 48px;
+}
+
+.send_button:hover {
+  background: #1200ff;
 }

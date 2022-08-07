@@ -171,15 +171,16 @@
     </div>
     <div class="big_container_second">
       <div class="container container_form">
-        <div class="column_enter">
+        <form id="user" method="post" action="https://echo.htmlacademy.ru">
           <label class="form_text" for="Name">Name</label>
           <input class="form_input_style" id="Name" type="text" placeholder="Alysson D." />
           <label class="form_text" for="email">E-mail</label>
           <input class="form_input_style" id="email" type="email" />
           <label class="form_text" for="yourquestion">Your question</label>
           <input class="form_input_style" id="yourquestion" type="text" />
-        </div>
-        <div class="column_submit">Button blyat'</div>
+        </form>
+        <button class="send_button" type="submit" form="user">Send!</button>
+        <img src="img/love_letter.png" alt="Love letter" class="love_letter" />
       </div>
     </div>
     <footer></footer>
