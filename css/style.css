@@ -388,6 +388,8 @@ h3 + p.small_main_text {
 }
 
 .slider_prev_color:hover,
+.slider_prev_color:focus,
+.slider_next_color:hover,
 .slider_next_color:focus {
   stroke: #1200ff;
   cursor: pointer;
