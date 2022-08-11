@@ -384,7 +384,7 @@ h3 + p.small_main_text {
 .slider-next:hover,
 .slider-next:focus {
   cursor: pointer;
-  stroke: #1200ff;
+  color: #1200ff;
 }
 
 .slider_prev_color:hover,
