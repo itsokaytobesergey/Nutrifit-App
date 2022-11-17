@@ -77,7 +77,7 @@ header .container {
 .form_content {
   color: #130f49;
   font-weight: 600;
-  tab-size: 20px;
+  font-size: 20px;
   line-height: 25px;
   border-bottom: 2px solid transparent;
 }
@@ -454,6 +454,7 @@ h3 + p.small_main_text {
 #user {
   display: flex;
   flex-direction: column;
+  width: 632px;
 }
 
 .form_text {
@@ -469,8 +470,6 @@ h3 + p.small_main_text {
   background: #ffffff;
   border: 2px solid #9994d7;
   border-radius: 20px;
-  min-height: 80px;
-  min-width: 632px;
   margin-bottom: 38px;
 }
 
@@ -481,13 +480,9 @@ h3 + p.small_main_text {
   font-size: 30px;
   line-height: 38px;
   color: #130f49;
-  opacity: 0.9;
+  opacity: 0.5;
   /* padding-left: 40px; */
   padding-top: 21px;
-}
-
-#yourquestion {
-  min-height: 187px;
 }
 
 .send_button {
@@ -513,13 +508,16 @@ h3 + p.small_main_text {
   cursor: pointer;
 }
 
-input {
+input,
+#yourquestion {
   font-family: "Outfit";
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 38px;
   color: #130f49;
-  opacity: 0.9;
   padding: 21px 40px;
+}
+#yourquestion {
+  height: 187px;
 }
